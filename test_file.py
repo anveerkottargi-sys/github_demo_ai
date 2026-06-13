@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def plot_data(file_path):
-    # Read the CSV file into a DataFrame
+    # Read the CSV file into a DataFrame and this is a csv file
     data = pd.read_csv(file_path)
 
     # Check if the necessary columns are present
