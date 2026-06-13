@@ -7,8 +7,7 @@ def plot_data(file_path):
 
     # Check if the necessary columns are present
     if 'x' not in data.columns or 'y' not in data.columns:
-        print("Error: The CSV file must contain 'x' and 'y' and 'zz' columns.")
-        print("Error: The CSV file must contain 'x' and 'y'  and 'z' columns.")
+        print("Error: The CSV file must contain 'x' and 'y' and 'zzzzz' columns.")
         return
 
     # Plot the data
