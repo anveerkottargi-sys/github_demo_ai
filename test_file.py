@@ -12,6 +12,7 @@ def plot_data(file_path):
 
     # Plot the data
     plt.figure(figsize=(10, 6))
+    plt.plot(data['x'], data['y'], marker='o', linestyle='+')
     plt.plot(data['x'], data['y'], marker='o', )
     plt.title('Data Plot')
     plt.xlabel('X-axis')
