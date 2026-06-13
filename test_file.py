@@ -7,12 +7,13 @@ def plot_data(file_path):
 
     # Check if the necessary columns are present
     if 'x' not in data.columns or 'y' not in data.columns:
-        
+        print("Error: ")
         return
 
     # Plot the data
     plt.figure(figsize=(10, 6))
     plt.plot(data['x'], data['y'], marker='o', linestyle='+')
+    plt.plot(data['x'], data['y'], marker='o', )
     plt.title('Data Plot')
     plt.xlabel('X-axis')
     plt.ylabel('Y-axis')
